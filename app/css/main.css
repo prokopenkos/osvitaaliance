@@ -1428,3 +1428,19 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+.commands_img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+    max-width: 100px;
+}
+#commands{
+    background-color: #009EE3;
+    color: #fff;
+}
+.commands-ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
