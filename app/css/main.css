@@ -1135,7 +1135,7 @@ textarea.form-control {
 
 /* portfolio */
     figcaption.mask {
-        bottom: -151px;
+        bottom: -181px;
     }
 
     .testimonial-item > div:after {
@@ -1431,6 +1431,11 @@ textarea.form-control {
 
 .commands_img{
     border: 3px solid #fff;
+    border-radius: 50%;
+    max-width: 100px;
+}
+.logo_img{
+    border: 3px solid #57d100;
     border-radius: 50%;
     max-width: 100px;
 }
