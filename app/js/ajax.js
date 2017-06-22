@@ -6,7 +6,7 @@ var ajax_send = (function(){
 
     _send_subscribe_form = function(e){
         e.preventDefault();
-        var form = $("#contact_form_send"),
+        var form = $("#subscribe_form_send"),
             url = 'subscribe.php',
             defObject = _ajaxForm(form,url);
         defObject.done(function(ans){
