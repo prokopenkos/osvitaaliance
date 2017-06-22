@@ -1223,7 +1223,9 @@ textarea.form-control {
     .sec-title h2:after {
         left: 30%;
     }
-
+    .logo_img{
+        display: none !important;
+    }
 /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
