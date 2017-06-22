@@ -553,6 +553,7 @@ End Fixed Navigation
 							<textarea name="message" class="form-control" placeholder="Текс сообщения..."></textarea>
 						</div>
 						<button type="submit" id="submit" class="btn btn-blue btn-effect">Отправить</button>
+						<div class="message-ok" id="message_ok">Ваше сообщение успешно отправлено.</div>
 					</form>
 				</div>
 
@@ -583,9 +584,9 @@ End Fixed Navigation
 			<div class="footer-content">
 				<div class="wow animated fadeInDown">
 					<p>Подписаться на новости</p>
-					<p>Получите классный материал, мы ненавидем спам!!</p>
+					<p>Получите классный материал, мы не рассылаем спам!!</p>
 				</div>
-				<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
+				<form id="subscribe_form_send" action="#" method="post" class="subscribe-form wow animated fadeInUp">
 					<div class="input-field">
 						<input type="email" class="subscribe form-control" placeholder="Введите Ваш Email...">
 						<button type="submit" class="submit-icon">
@@ -593,6 +594,7 @@ End Fixed Navigation
 						</button>
 					</div>
 				</form>
+				<div class="message-ok" id="send_ok">Поздравляем Вы подписаны на наши новости</div>
 				<div class="footer-social">
 					<ul>
 						<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>

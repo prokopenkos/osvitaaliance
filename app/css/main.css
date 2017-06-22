@@ -1454,3 +1454,11 @@ textarea.form-control {
 .text-green{
     color: #57d100;
 }
+.message-ok{
+    float: right;
+    color: #57d100;
+    display: none;
+}
+.display_y{
+    display: block !important;
+}
