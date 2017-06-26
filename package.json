@@ -1,10 +1,11 @@
 {
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^3.9.1",
     "gulp-connect": "^2.2.0",
     "opn": "^1.0.1"
   },
   "dependencies": {
-    "gulp-dependency-install": "0.0.8"
+    "gulp-dependency-install": "0.0.8",
+    "gulp-install": "^1.1.0"
   }
 }
