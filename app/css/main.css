@@ -234,7 +234,7 @@ ul.external li a:hover{ background-color:#009EE3;  color:#fff}
 .price-table.featured ul li:last-child a,
 .price-table ul li:last-child:hover a{ color:#fff}
 
-#social{    background-image:url(../img/slider/banner_1.png);     padding:0}
+#social{    background-image:url(../img/slider/banner_1_ship.png);     padding:0}
 
 #social .overlay{    background:url("../img/slide_bg.png") repeat scroll 0 0 transparent;  padding:100px 0 120px}
 
@@ -428,10 +428,12 @@ textarea.form-control{ width:100%;  height:165px}
 }
 
 .commands_img{ border:3px solid #fff;  border-radius:50%;  max-width:100px}
-.logo_img{ border:3px solid #57d100;  border-radius:50%;  max-width:100px}
+.logo_img{ border:3px solid #009EE3;  border-radius:50%;  max-width:130px}
 #commands{ background-color:#009EE3;  color:#fff}
 .commands-ul{ margin:0;  padding:0;  list-style:none;  text-align:center}
 .text-green{ color:#57d100}
+.text-white{ color:#fff}
+.text-black{ color:#2e2e2e}
 .message-ok{ float:right;  color:#57d100;  display:none}
 .display_y{ display:block !important}
 .w-50{ width:50%;}
